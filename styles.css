@@ -1,5 +1,13 @@
 body {
     background-color: #eaeaea;
+    font-family: 'Abel', sans-serif;
+}
+h1 {
+    font-size: 3.5rem !important;
+}
+h2 {
+    font-size: 2rem !important;
+    color: black;
 }
 .container {
     width: 90%;
@@ -12,9 +20,16 @@ body {
 }
 .active .nav-link {
     color: #fff !important;
+    border-bottom: 1px solid rgb(123, 91, 138);
 }
 .nav-link {
     height: 75px;
+    padding-top: 26px;
+
+}
+.nav-link:hover {
+    background: #C9A0DC;
+    color: #fff !important;
 }
 .navbar {
     background: #fff;
@@ -24,10 +39,29 @@ body {
     -webkit-transition: all .5s;
     transition: all .5s;
     border: none;
-    border-bottom: 1px solid #C9A0DC;
-    width: 100%;
+    border-bottom: 1px solid rgb(123, 91, 138);
     height: 75px;
+    float: right!important;
 }
 .navbar-brand {
     color: #C9A0DC !important;
+}
+.navbar-nav li {
+    margin-left: 5px;
+}
+.imageheader img {
+    width: 100%;
+}
+.imageheader {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.banner-content {
+    position: absolute;
+    top: 25em;
+    left: 44%;
+    color:  rgb(123, 91, 138) !important;
+    
 }
